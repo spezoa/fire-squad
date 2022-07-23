@@ -48,23 +48,27 @@ nav {
     max-width: max-content;
 }
 
-.form-contact {
+.form-contact, .expectative {
+    display:block;
     color: #8b817f;
     background-color: #0b172a;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 1rem;
     border: 3px solid #8b817f;
     color: darkgoldenrod;
+    max-width: fit-content;
 }
 
-.expectative {
+/*.expectative {
+    display: flexbox;
     color: #8b817f;
     background-color: #0b172a;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 1rem;
     border: 3px solid #8b817f;
     color: darkgoldenrod;
-}
+    max-width: fit-content;
+}*/
 
 #center-me {
     display: block;
