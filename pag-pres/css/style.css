@@ -23,7 +23,8 @@ body {
 }
 
 .header-style h3, .header-style h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 10px;
     background-color: #0b172a;
     margin: auto;
@@ -38,25 +39,26 @@ nav {
     text-align: center;
 }
 
-.form-contact:hover {
+#form-contact:hover {
     color: darkgoldenrod;
     max-width: max-content;
 }
 
-.expectative:hover {
+#expectative:hover {
     color: darkgoldenrod;
     max-width: max-content;
 }
 
-.form-contact, .expectative {
-    display:block;
+#form-contact, #expectative {
+    display: flex;
+    max-width: fit-content;
+    justify-content: center;
     color: #8b817f;
     background-color: #0b172a;
     padding: .5rem;
     border-radius: 1rem;
     border: 3px solid #8b817f;
     color: darkgoldenrod;
-    max-width: fit-content;
 }
 
 /*.expectative {
