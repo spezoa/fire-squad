@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="/pag-pres/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <Header>
+        <h1>Formulario de contacto</h1>
+        <h4>Para contacatarme deja tus datos y preferencias.</h4>
+    </Header>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="age">Edad:</label>
+            <input type="number">
+        </div>
+        <div>
+            <label for="date">Fecha:</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="bio">Bio:</label>
+            <textarea cols="30" rows="6"></textarea>
+        </div>
+        <div>
+            <label for="gender">Género:</label>
+            <select name="gender">
+                <option value="Femenine">Femenino</option>
+                <option value="Masculine">Masculino</option>
+                <option value="other">Otro</option>
+            </select>
+        </div>
+        <div>
+            <p>¿Playa y/o Montaña?</p>
+            <label for="beach">Playa</label>
+            <input type="checkbox" name="beach">
+            <label for="mountain">Montaña</label>
+            <input type="checkbox" name="mountain">
+        </div>
+        <div>
+            <p>¿Inviernista o Veranista?</p>
+            <label for="winter">Inviernista</label>
+            <input type="radio" type="checkbox" name="random">
+            <label for="summer">Veranista</label>
+            <input type="radio" type="checkbox" name="random">
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </div>
+    </form>
+    <nav>
+        <a href="/pag-pres/html/index.html">Página de presentación</a>
+    </nav>
+</body>
+
+</html>

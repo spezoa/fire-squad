@@ -1,0 +1,76 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#back-image {
+    background-image: url(/pag-pres/img/images/roadway.leaves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bio-spf {
+    margin: auto;
+    max-width: fit-content;
+    border: 3px solid #8b817f;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    background-color: #0b172a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkgoldenrod;
+}
+
+.header-style h3, .header-style h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #0b172a;
+    margin: auto;
+    max-width: fit-content;
+    display: flex;
+    border-radius: 18px;
+    border: 3px solid #8b817f;
+    color: darkgoldenrod;
+}
+
+nav {
+    text-align: center;
+}
+
+.form-contact:hover {
+    color: darkgoldenrod;
+    max-width: max-content;
+}
+
+.expectative:hover {
+    color: darkgoldenrod;
+    max-width: max-content;
+}
+
+.form-contact {
+    color: #8b817f;
+    background-color: #0b172a;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 3px solid #8b817f;
+    color: darkgoldenrod;
+}
+
+.expectative {
+    color: #8b817f;
+    background-color: #0b172a;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 3px solid #8b817f;
+    color: darkgoldenrod;
+}
+
+#center-me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 3px solid #8b817f;
+    border-radius: 18px;
+}
