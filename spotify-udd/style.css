@@ -1,0 +1,28 @@
+.spotify-bg {
+    background-color: #191414;
+}
+
+.spotify-cl {
+    width: 132px ;
+    height: 40px;
+}
+
+@media screen and (max-width: 940px) {
+    .nav-principal {
+        height: 40px;
+        width: 720px;
+    }
+
+    .spotify-cl {
+        width: 89px ;
+        height: 28.25px;
+    }
+
+    .button-person {
+        width: 35px;
+        height: 35px;
+        border-radius: 80%;
+    }
+}
+    
+
