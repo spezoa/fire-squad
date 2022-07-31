@@ -23,6 +23,11 @@
         height: 35px;
         border-radius: 80%;
     }
+    
+    .listbutton {
+        width: 25px;
+        height: 25px;
+    }
 }
     
 
