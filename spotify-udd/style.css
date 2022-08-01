@@ -7,6 +7,7 @@
     height: 40px;
 }
 
+
 @media screen and (max-width: 940px) {
     .nav-principal {
         height: 40px;
@@ -27,6 +28,16 @@
     .listbutton {
         width: 25px;
         height: 25px;
+    }
+
+    .divbar {
+        display: flex;
+        transform: rotate(270deg);
+        justify-content: center;
+    }
+
+    li:hover {
+        color: #1db954
     }
 }
     
