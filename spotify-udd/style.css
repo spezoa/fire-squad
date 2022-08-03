@@ -1,3 +1,11 @@
+@font-face {
+    font-family: spotify-font;
+    src: url(/spotify-udd/Fonts/Circular/CircularStd-Medium.otf);
+}
+
+* {
+    font-family: spotify-font;
+}
 .spotify-bg {
     background-color: #191414;
 }
@@ -7,6 +15,12 @@
     height: 40px;
 }
 
+/* .div-bar {
+    display: flex;
+    color: white;
+    border-bottom: 10px;
+    transform: rotate(270deg);
+    justify-content: center; */
 
 @media screen and (max-width: 940px) {
     .nav-principal {
@@ -38,15 +52,22 @@
     } */
 
     .responsive-text-h1 {
-        font-weight: 700;
-        font-size: 28pt;
+        font-size: 25pt;
     }
 
     .responsive-text-h3 {
-        font-weight: 600;
         font-size: 20pt;
-    }   
-        
+    }
+
+    #spotnav > ul > li > a.h3-gray {
+        color: #dadadc ;
+    }
+    
+    #spotnav > ul > li a:hover {
+        color: #1DB954;
+    }
+
+
 }
     
 
