@@ -16,65 +16,109 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="container-fluid bg-black fixed-top px-lg-5">
-            <header class="navbar navbar-expand-lg navbar-dark bg-black text-white py-m-1 py-lg-0 px-5">
-                <div class="container-fluid px-lg-5">
+    <div class="container-fluid m-auto bg-black">
+        <nav class="navbar-expand-lg navbar-dark py-lg-0 m-auto">
+            <div class="d-flex m-auto align-items-center justify-content-between py-lg-3 px-lg-5 py-3 px-5">
+                <div>
                     <a href="https://www.spotify.com/cl/">
                         <img src="/spotify-udd/img/Spotify_Logo_CMYK_White.png" alt="spotify-cl" class="spotify-cl">
                     </a>
-                    <div>
-                        <button class="btn btn-transparent border-0 p-1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <a href="https://www.spotify.com/cl/account/overview/">
-                                <img class="button-person" src="/spotify-udd/img/user-profile4.svg" alt="">
-                            </a>
-                        </button>
-                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#spotnav" aria-controls="spotnav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <img class="listbutton" src="/spotify-udd/img/menu-bars5.svg" alt="List button">
-                            <!-- <span class="navbar-toggler-icon"></span> -->
-                        </button>
-                        <div class="navbar-collapse collapse px-lg-5" id="spotnav">
-                            <ul class="navbar-nav mr-auto">
-                                <!-- <button class="btn btn-close-white" type="button">X</button> -->
-                                <li class="nav-item responsive-text-h1">
-                                    <a class="nav-link active" aria-cucrrent="page" 
-                                        href="https://www.spotify.com/cl/premium/">Premium</a>
-                                </li>
-                                <li class="nav-item responsive-text-h1">
-                                    <a class="nav-link active" aria-current="page"
-                                        href="https://support.spotify.com/">Ayuda</a>
-                                </li>
-                                <li class="nav-item responsive-text-h1">
-                                    <a class="nav-link active" aria-current="page"
-                                        href="https://www.spotify.com/cl/download/">Descargar</a>
-                                </li>
-                                <li class="border-2 border-top p-0 my-4">
-                                </li>
-                                <!-- <span class="nav-link disabled text-white">|</span> -->
-                                <li class="nav-item responsive-text-h3">
-                                    <a class="nav-link h3-gray" aria-current="page"
-                                        href="https://www.spotify.com/cl/signup/">Regístrate</a>
-                                </li>
-                                <li class="nav-item responsive-text-h3">
-                                    <a class="nav-link h3-gray" aria-current="page"
-                                        href="https://www.spotify.com/cl/login/?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1">Iniciar
-                                        sesión</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
-            </header>
+                <!-- <div class="d-flex align-items-end">
+                    <button class="btn btn-transparent border-0 p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <a href="https://www.spotify.com/cl/account/overview/">
+                            <img class="button-person" src="/spotify-udd/img/user-profile4.svg" alt="">
+                        </a>
+                    </button>
 
-            <main>
-    
-            </main>
-        </div>
+                </div> -->
+                <div class="d-flex">
+                    <button class="d-flex navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#spotnav" aria-controls="spotnav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <img class="listbutton" src="/spotify-udd/img/menu-bars5.svg" alt="List button">
+                    </button>
+                    <nav class="navbar-collapse collapse justify-content-lg-end" id="spotnav">
+                        <ul class="d-flex navbar-nav mr-auto align-items-start">
+                            <li class="nav-item responsive-text-h1 px-3">
+                                <a class="nav-link active" aria-cucrrent="page"
+                                    href="https://www.spotify.com/cl/premium/">Premium</a>
+                            </li>
+                            <li class="nav-item responsive-text-h1 px-3">
+                                <a class="nav-link active" aria-current="page"
+                                    href="https://support.spotify.com/">Ayuda</a>
+                            </li>
+                            <li class="nav-item responsive-text-h1 px-3">
+                                <a class="nav-link active" aria-current="page"
+                                    href="https://www.spotify.com/cl/download/">Descargar</a>
+                            </li>
+                            <span class="d-none d-lg-block nav-link disabled text-white px-lg-3">|</span>
+                            <img class="separador d-lg-none" src="/spotify-udd/img/separador.svg" alt="">
+                            <li class="nav-item responsive-text-h3 px-3">
+                                <a class="nav-link h3-gray" aria-current="page"
+                                    href="https://www.spotify.com/cl/signup/">Regístrate</a>
+                            </li>
+                            <li class="nav-item responsive-text-h3 px-3">
+                                <a class="nav-link h3-gray" aria-current="page"
+                                    href="https://www.spotify.com/cl/login/?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1">Iniciar
+                                    sesión</a>
+                            </li>
+                            <li class="d-lg-none pt-5 mb-3 px-2 mt-5 justify-content-center">
+                                <a href="https://www.spotify.com/cl/">
+                                    <img src="/spotify-udd/img/Spotify_Logo_CMYK_White.png" alt="spotify-cl"
+                                        class="spotify-cl">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>
     </div>
+
+    <main>
+        <section class="d-flex m-auto" id="banner-premium">
+            <article class="d-flex m-auto">
+                <header class="d-grid">
+                    <div class="div-banner">
+                        <div>
+                            <h1>Pásate a Premium gratis por 1 mes</h1>
+                        </div>
+                        <div>
+                            <h2>Después, solo cuesta $ 4.150,00 por mes. Cancela cuando quieras.</h2>
+                        </div>
+                        <div class="div-buttons d-flex justify-content-start">
+                            <div>
+                                <a
+                                    href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fwww.spotify.com%2Fcl%2Fpurchase%2Foffer%2Fdefault-trial-1m%2F%3Fcountry%3DCL">
+                                    <button class="button-start btn btn-dark">
+                                        <div class="py-2 px-3">comenzar</div>
+                                    </button>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#plans">
+                                    <button  class="button-plans btn btn-outline-light">
+                                        <div class="py-2 px-3">ver planes</div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <footer>
+                            <p class="m-0">
+                                <a class="terms1"
+                                    href="https://www.spotify.com/legal/premium-promotional-offer-terms">Se aplican
+                                    Términos y Condiciones.</a>
+                                El mes gratis no está disponible para los usuarios que ya hayan probado Premium.
+                            </p>
+                        </footer>
+                    </div>
+                </header>
+            </article>
+        </section>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"

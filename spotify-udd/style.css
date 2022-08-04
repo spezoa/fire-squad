@@ -1,17 +1,28 @@
 @font-face {
-    font-family: spotify-font;
+    font-family: spotify-font-med;
     src: url(/spotify-udd/Fonts/Circular/CircularStd-Medium.otf);
 }
 
-* {
-    font-family: spotify-font;
+@font-face {
+    font-family: spotify-font-black;
+    src: url(/spotify-udd/Fonts/Circular/CircularStd-Black.otf);
 }
+
+@font-face {
+    font-family: spotify-font-lite;
+    src: url(/spotify-udd/Fonts/Circular/CircularStd-Light.otf);
+}
+
+* {
+    font-family: spotify-font-med;
+}
+
 .spotify-bg {
     background-color: #191414;
 }
 
 .spotify-cl {
-    width: 132px ;
+    width: 132px;
     height: 40px;
 }
 
@@ -22,14 +33,103 @@
     transform: rotate(270deg);
     justify-content: center; */
 
-@media screen and (max-width: 940px) {
+.responsive-text-h1 {
+    color: white;
+
+}
+
+#spotnav>ul>li>a.h3-gray {
+    color: #dadadc;
+}
+
+#spotnav>ul>li a:hover {
+    color: #1DB954;
+}
+
+#banner-premium {
+    background-color: #1d75de;
+    color: white;
+}
+
+div h1 {
+    font-size: 40px;
+    font-family: spotify-font-black;
+    font-weight: 800;
+}
+
+div h2 {
+    font-size: 24px;
+    font-family: spotify-font-lite;
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 12px;
+    font-family: spotify-font-lite;
+}
+
+footer p a {
+    color: white;
+    font-family: spotify-font-lite;
+}
+
+.div-banner {
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+header div .div-buttons {
+    margin-top: 35px;
+}
+
+header div .button-start {
+    background-color: #191414;
+    border-radius: 50px;
+    border-width: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-color: #191414;
+    margin-right: 8px;
+}
+
+header .button-plans {
+    color: white;
+    border-radius: 50px;
+    border-width: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+header div .button-plans:hover {
+    color: white;
+    background-color: #3169b3;
+    transform: scale(1.03);
+}
+
+header div .button-start:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.03);
+    border-color: black;
+}
+
+@media screen and (max-width: 990px) {
+    @font-face {
+        font-family: spotify-font-lite;
+        src: url(/spotify-udd/Fonts/Circular/CircularStd-Light.otf);
+    }
+
     .nav-principal {
         height: 40px;
         width: 720px;
     }
 
     .spotify-cl {
-        width: 89px ;
+        width: 89px;
         height: 28.25px;
     }
 
@@ -38,7 +138,7 @@
         height: 35px;
         /* border-radius: 80%; */
     }
-    
+
     .listbutton {
         width: 25px;
         height: 25px;
@@ -52,22 +152,29 @@
     } */
 
     .responsive-text-h1 {
-        font-size: 25pt;
+        color: white;
+        font-size: 28pt;
     }
 
     .responsive-text-h3 {
-        font-size: 20pt;
+        font-size: 22pt;
+        font-family: spotify-font-lite;
     }
 
-    #spotnav > ul > li > a.h3-gray {
-        color: #dadadc ;
+    #spotnav>ul>li>a.h3-gray {
+        color: #dadadc;
     }
-    
-    #spotnav > ul > li a:hover {
+
+    #spotnav>ul>li a:hover {
         color: #1DB954;
+    }
+
+    #spotnav>ul>img {
+        width: 20px;
+        height: 2px;
+        margin: 25px 15px;
+        background-color: white;
     }
 
 
 }
-    
-
