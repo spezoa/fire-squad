@@ -1,0 +1,103 @@
+/* Estoy importando una fuente de google font que solo es parecida, pero sirve. */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px ;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: white;
+}
+
+.main {
+    background-color: #ffd4db;
+    width: 100%;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    top: auto;
+    left: 0px;
+}
+
+.article-hero{
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-right: 129px;
+    margin-left: 129px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
+.hero {
+    background-color: #ffd4db;
+}
+
+.header-hero{
+    padding-top: 72px;
+    padding-bottom: 40px;
+}
+
+.titulo-hero{
+    width: 100%;
+    font-size: 2.6rem;
+    font-weight: 900;
+    
+}
+
+.subtitulo-hero{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.botones {
+    margin-top: 35px;
+}
+
+.btn {
+    text-transform: uppercase;
+    justify-content: center;
+    border-width: 2px;
+    border-style: solid;
+    box-sizing: border-box;
+    font-weight: 600;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.btn-black {
+    background-color: black;
+    color: white; 
+    
+}
+
+.btn-transparent {
+    
+    border-color: black;
+}
+.btn-transparent:hover {
+    background-color: #FFD4DB;
+}
+
+.footer-hero {
+    
+    margin-top: 40px;
+    width: 100%;
+    display: block;
+}
+
+.footer-hero p {
+    font-size: 0.7rem;
+}

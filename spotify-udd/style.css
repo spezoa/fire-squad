@@ -178,3 +178,23 @@ header div .button-start:hover {
 
 
 }
+
+@media screen and (max-width: 760px) {
+    header div .button-start {
+        background-color: #191414;
+        border-radius: 50px;
+        border-width: 2px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-color: #191414;
+        margin-right: 8px;
+    }
+    
+    header .button-plans {
+        color: white;
+        border-radius: 50px;
+        border-width: 2px;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}

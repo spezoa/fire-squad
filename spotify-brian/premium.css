@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+body {
+    font-family: Lato, sans-serif;
+    background-color: #efefef;
+}
+.contenedor {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 1fr 4fr;
+}
+
+.cabecera {
+    text-align: center;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tarjeta1, .tarjeta2, .tarjeta3, .tarjeta4 {
+    background-color: #fff;
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+    padding: 13px;
+    margin: 10px;
+}
+
+.mesgratis{
+    background-color: #0d72ea;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 6px;
+    margin: 5px;
+    border-radius: 5px;
+    border: #0d72ea;
+    border: 1px solid #0d72ea;
+}
+.prepagos{
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    padding: 3px 6px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #0d72ea;   
+}
+
+.btn {
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-size: large;
+    transition: 0.5s all;
+}
+.btn:hover{
+    transform: scale(102%);
+}
+
+.letraChica{
+    font-size: x-small;
+}
